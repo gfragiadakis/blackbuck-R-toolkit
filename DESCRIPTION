@@ -1,0 +1,16 @@
+Package: blackbuck
+Title: R Toolkit for Blackbuck API
+Version: 0.0.0.9000
+Authors@R: person("Gabriela", "Fragiadakis", email = "gabi.fragiadakis@gmail.com", role = c("aut", "cre"))
+Description: This package contains R functions to access flow cytometry data from a remote server.  It was built specifically to interact with immuneatlas.org.  It contains functions to retrieve filenames, metadata, gates, statistics, etc and to download files.
+Depends: R (>= 3.2.2)
+License: What license is it under?
+LazyData: true
+Imports:
+	RCurl,
+	jsonlite,
+	png,
+	reshape2,
+	dplyr,
+	ggplot2
+
